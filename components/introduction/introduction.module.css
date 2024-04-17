@@ -1,0 +1,61 @@
+.spanText {
+  color: rgb(40, 40, 206);
+}
+
+.textCarousel {
+  color: white;
+  font-size: 25px;
+  padding: 1rem 1rem;
+  float: left; 
+  text-align: left;
+  margin-left: 50px;
+}
+
+.imageDiv {
+  color: white;
+  float: right; 
+  vertical-align: middle;
+  padding: 1rem 1rem;
+  -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+  clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+  position: relative;
+  width: 25%;
+  height: 400px;
+  margin-right: 100px;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+  
+  .textCarousel {
+    font-size: 10px;
+    padding: 1rem 1rem;
+    text-align: left;
+    margin-left: 50px;
+    position: fixed;
+    left: 0;
+    top: 125px;
+    z-index: -1;
+    width: 100%;
+  }
+
+  .imageDiv { 
+    top: 360px;
+    width: 200px;
+    height: 200px;
+    font-size: 10px;
+    padding: 1rem 1rem;
+    margin-left: 50px;
+    position: fixed;
+    left: 0;
+    right: 0;
+  }
+
+  .wrapper {
+    width: 200px;
+  }
+}
+
